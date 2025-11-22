@@ -7,6 +7,12 @@ export UV_CACHE_DIR="/lustre/fs0/scratch/zkim/uv_cache"
 export HF_HOME="/lustre/fs0/scratch/zkim/hf_cache"
 export TRITON_CACHE_DIR="/lustre/fs0/scratch/zkim/triton_cache"
 
+export ENROOT_CACHE_PATH=/tmp/$USER-enroot/cache
+export ENROOT_RUNTIME_PATH=/tmp/$USER-enroot/runtime
+export ENROOT_TEMP_PATH=/tmp/$USER-enroot/tmp
+
+export ENROOT_DATA_PATH=/lustre/fs0/scratch/zkim/sqsh-files
+
 #### Bash completion & case-insensitive matching ####
 # Enable bash-completion if available (Ubuntu usually has this)
 if [ -f /etc/bash_completion ]; then
